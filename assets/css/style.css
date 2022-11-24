@@ -51,6 +51,23 @@ dropdown{
     background-color: rgb(244, 243, 243)!important;
     border-color: rgb(255, 238, 127)!important;
 }
+.btn-primary{
+    color:darkslategray;
+    background-color: rgb(136, 197, 255);
+}
+.btn-dark{
+    background-color: darkslategray;
+}
+.card>hr{
+    max-width:20%;
+    margin-left: 40%;
+}
+.card{
+    color:darkslategrey;
+}
+.card>ul{
+    padding: 0;
+}
 #template{
     display: none;
 }
