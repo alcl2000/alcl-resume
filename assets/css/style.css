@@ -45,9 +45,17 @@ h1{
 img{
     border-radius: 50%;
     left: 37rem;
-    top: 7rem;
+    top: 10rem;
     position: absolute;
     z-index: 1;
+}
+p{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: xx-large;
+    position: relative;
+    right: 18rem;
+    top:27rem;
 }
 /*Projects page*/
 #card-3{
