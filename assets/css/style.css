@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Laila:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Laila:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:300,700&display=swap');
+@import "compass/css3";
 /*Universal styling */
 --root{
     --red:rgb(255, 121, 121);
@@ -7,9 +8,10 @@
     --green:rgb(149, 255, 128);
     --blue:rgb(136, 197, 255);
     --purple:rgb(223, 143, 255);
+    --sage:rgb(153, 169, 140);
 }
 body{
-    color:rgb(34, 34, 34);
+    color:rgb(84, 84, 84);
 }
 
 /* Navbar styling */
@@ -49,7 +51,7 @@ img{
     position: absolute;
     z-index: 1;
 }
-p{
+.tag{
     text-align: center;
     font-family: 'ABeeZee', sans-serif;
     font-size: xx-large;
