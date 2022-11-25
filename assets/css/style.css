@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Laila:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*Universal styling */
 --root{
     --red:rgb(255, 121, 121);
@@ -8,7 +9,7 @@
     --purple:rgb(223, 143, 255);
 }
 body{
-    color:black;
+    color:rgb(34, 34, 34);
 }
 
 /* Navbar styling */
@@ -28,22 +29,38 @@ ul{
 dropdown{
     background-color: white;
 }
-
 .card{
     max-width: 90%;
     margin: auto;
     text-align: center;
 }
-/*Projects page
-*/
-.bg-danger{
+/*Index*/
+#intro{
+    margin-left:30%;
+}
+h1{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 5rem;
+}
+img{
+    border-radius: 50%;
+    left: 37rem;
+    top: 7rem;
+    position: absolute;
+    z-index: 1;
+}
+/*Projects page*/
+#card-3{
     /*background-color: rgba(253, 236, 236, 0.964)!important;*/
-    background-color: rgb(244, 243, 243)!important;
+    background-color: rgb(255, 240, 240)!important;
     border-color: rgb(255, 121, 121)!important;
+}
+#card-3::hover{
+    background-color: rgba(253, 236, 236, 0.964)!important;
 }
 .bg-secondary{
     /*background-color:rgba(255, 195, 126, 0.323)!important; */
-    background-color: rgb(244, 243, 243)!important;
+    background-color: rgb(248, 248, 248)!important;
     border-color: rgb(255, 195, 126)!important;
 }
 .bg-warning{
@@ -53,10 +70,10 @@ dropdown{
 }
 .btn-primary{
     color:darkslategray;
-    background-color: rgb(136, 197, 255);
+    background-color: rgb(210, 233, 255);
 }
 .btn-dark{
-    background-color: darkslategray;
+    background-color: rgb(154, 154, 154);
 }
 .card>hr{
     max-width:20%;
@@ -64,6 +81,10 @@ dropdown{
 }
 .card{
     color:darkslategrey;
+    font-family: 'lato', sans-serif;
+}
+.card>p{
+    margin:0px 5px;
 }
 .card>ul{
     padding: 0;
