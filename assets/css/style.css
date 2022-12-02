@@ -80,23 +80,21 @@ img{
     padding-left: none;
     list-style-type: circle;
 }
+/*cards styling*/
+.card{
+    border-radius: 130px!important;
+}
 #card-3{
-    /*background-color: rgba(253, 236, 236, 0.964)!important;*/
-    background-color: rgb(255, 240, 240)!important;
     border-color: rgb(255, 121, 121)!important;
 }
 #card-3::hover{
-    background-color: rgba(253, 236, 236, 0.964)!important;
+    background-color: rgba(255, 190, 190, 0.964);
 }
-.bg-secondary{
-    /*background-color:rgba(255, 195, 126, 0.323)!important; */
-    background-color: rgb(248, 248, 248)!important;
-    border-color: rgb(255, 195, 126)!important;
+#card-4{
+    border-color:rgb(255, 195, 126);
 }
-.bg-warning{
-    /*background-color:rgba(255, 238, 127, 0.308)!important;*/
-    background-color: rgb(244, 243, 243)!important;
-    border-color: rgb(255, 238, 127)!important;
+#card-5{
+    border-color:rgb(255, 238, 127);
 }
 .btn-primary{
     color:darkslategray;
