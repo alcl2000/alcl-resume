@@ -9,14 +9,23 @@
     --blue:rgb(136, 197, 255);
     --purple:rgb(223, 143, 255);
     --sage:rgb(153, 169, 140);
+    --black: rgb(56, 56, 56);
 }
 body{
-    color:rgb(84, 84, 84);
+    color: rgb(56, 56, 56)!important;
 }
 
 /* Navbar styling */
-.navbar{
-    background-color: rgb(207, 207, 207)  
+nav{
+    background: linear-gradient(90deg, rgba(255, 206, 206, 0.594) 0%, rgba(255, 218, 184, 0.6) 19.27%, rgba(255, 241, 191, 0.6) 39.17%, rgba(210, 255, 175, 0.6) 58.33%, rgba(174, 240, 255, 0.6) 76.56%, rgba(244, 176, 255, 0.6) 100%);  
+}
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 5px;
+    color: rgb(56, 56, 56)!important;
 }
 .nav-item{
     margin-right: 10px;
