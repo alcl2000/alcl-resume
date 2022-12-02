@@ -16,7 +16,7 @@ body{
 }
 
 /* Navbar styling */
-nav{
+nav, footer{
     background: linear-gradient(90deg, rgba(255, 206, 206, 0.594) 0%, rgba(255, 218, 184, 0.6) 19.27%, rgba(255, 241, 191, 0.6) 39.17%, rgba(210, 255, 175, 0.6) 58.33%, rgba(174, 240, 255, 0.6) 76.56%, rgba(244, 176, 255, 0.6) 100%);  
 }
 .navbar-brand{
@@ -110,4 +110,15 @@ img{
 }
 #template{
     display: none;
+}
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+}
+a{
+    color: var(--black);
+    text-decoration: none!important;
 }
