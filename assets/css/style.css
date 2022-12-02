@@ -69,6 +69,17 @@ img{
     top:27rem;
 }
 /*Projects page*/
+.project-titles,.project-contents{
+    font-family: 'ABeeZee',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.project-contents{
+    font-size: 16px;
+    padding-left: none;
+    list-style-type: circle;
+}
 #card-3{
     /*background-color: rgba(253, 236, 236, 0.964)!important;*/
     background-color: rgb(255, 240, 240)!important;
