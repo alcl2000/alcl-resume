@@ -10,9 +10,13 @@ window.onload = function() {
     }
 };
 
+// Projects page
 $(redCard).mouseenter(function() {
-    redCard.style.backgroundColor = 'red';
+    redCard.style.backgroundColor = '#FFEBEE';
 });
+$(redCard).mouseleave(function(){
+    redCard.style.backgroundColor = '#FFFFFF'
+})
 
 function fetchGitHubInformation(event){
     var username = $('#gh-username').val();
