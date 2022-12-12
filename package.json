@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "postboot": "^1.0.2"
   }
 }
