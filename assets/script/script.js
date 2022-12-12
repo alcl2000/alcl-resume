@@ -4,20 +4,20 @@ var yellowCard = document.getElementById('card-5');
 
 // Projects page
 $(redCard).mouseenter(function() {
-    redCard.style.backgroundColor = '#FFEBEE';
+    redCard.style.backgroundColor = 'rgba(255, 121, 121,0.1)';
 });
 $(redCard).mouseleave(function(){
     redCard.style.backgroundColor = '#FFFFFF';
 });
 
 $(orangeCard).mouseenter(function(){
-    this.style.backgroundColor = '#FFECB3';
+    this.style.backgroundColor = 'rgba(255, 195, 126, 0.2)';
 });
 $(orangeCard).mouseleave(function(){
     this.style.backgroundColor = '#FFFFFF'
 })
 $(yellowCard).mouseenter(function (){
-    this.style.backgroundColor = '#FFF9C4'
+    this.style.backgroundColor = 'rgba(255, 238, 127,0.2)'
 })
 $(yellowCard).mouseleave(function (){
     this.style.backgroundColor = '#FFFFFF'
