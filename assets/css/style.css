@@ -82,13 +82,13 @@ img{
 }
 /*cards styling*/
 .card{
-    border-radius: 130px!important;
+    border-radius: 60px!important;
+    color:darkslategrey;
+    font-family: 'lato', sans-serif;
+    text-align: left;
 }
 #card-3{
     border-color: rgb(255, 121, 121)!important;
-}
-#card-3::hover{
-    background-color: rgba(255, 190, 190, 0.964);
 }
 #card-4{
     border-color:rgb(255, 195, 126);
@@ -106,10 +106,6 @@ img{
 .card>hr{
     max-width:20%;
     margin-left: 40%;
-}
-.card{
-    color:darkslategrey;
-    font-family: 'lato', sans-serif;
 }
 .card>p{
     margin:0px 5px;
