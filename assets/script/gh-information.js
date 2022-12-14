@@ -14,7 +14,30 @@ function userInformationHTML(user){
     `;
 };
 
+function repoInformationHtml(repoData){
+    if(repoData.length == 0){
+        return `<div>No respositories found</div>`
+    }
+    else{
+        var listItemsHTML = repos.map(function(repo){
+            return `
+            <li><a href = "${repo.html_url}" target='_blank'>${repo.name}</a></li>`;
+        });
+
+        return `    <div>
+                    <p>
+                    <strong>Repo List:</strong></p>
+                    <ul>
+                        ${listItemsHTML.join('\n')}
+                    </ul>
+                    </div>`;
+    };
+};
+
 function fetchGitHubInformation(event){
+    $('#gh-user-data').html('');
+    $('#gh-repo-data').html('');
+
     var username = $('#gh-username').val();
     if(!username){
         $('#gh-user-data').html(`<h2>Please enter a GitHub username, mine is alcl2000</h2>`);
@@ -35,7 +58,8 @@ function fetchGitHubInformation(event){
             $('#gh-user-data').html(userInformationHTML(userData));
             $('#gh-repo-data').html(repoInformationHtml(repoData));
         }
-    ), function(errorResponse){
+    ), 
+    function(errorResponse){
         if(errorResponse.status === 404){
             $('#gh-user-data').html(`<h2>No info found for user ${username}</h2>`);
         }
